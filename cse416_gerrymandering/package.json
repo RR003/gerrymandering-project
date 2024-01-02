@@ -1,0 +1,45 @@
+{
+  "name": "cse416_gerrymandering",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.11",
+    "@types/d3": "^7.4.1",
+    "apexcharts": "^3.45.0",
+    "axios": "^1.5.1",
+    "chart.js": "^4.4.1",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "d3": "^7.8.5",
+    "flowbite-react": "^0.7.2",
+    "leaflet": "^1.9.4",
+    "next": "^14.0.3",
+    "plotly.js": "^2.27.1",
+    "randomcolor": "^0.6.2",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-d3": "^0.4.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-plotly.js": "^2.6.0",
+    "recharts": "^2.8.0",
+    "tw-elements": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.2",
+    "autoprefixer": "latest",
+    "daisyui": "^3.8.2",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "5.2.2"
+  }
+}

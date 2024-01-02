@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+nextjs-portal {
+  display: none;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.special-table-cell {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.chart-container {
+  width: 1000px;
+  height: 500px;
+}
+
+.header-navbar {
+  margin-left: 30px;
+}
+
+.axis {
+  display: inline-block;
+  margin-right: 10;
+}
+
+path.leaflet-interactive:focus {
+  outline: none;
+}
